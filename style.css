@@ -192,6 +192,9 @@ footer .socials {
   max-width: 80%;
   margin: 60px auto;
   border-radius: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -211,6 +214,15 @@ form {
   flex-direction: column;
   padding: 10px 20px;
   border-radius: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
 }
 
 form input, textarea, select {
