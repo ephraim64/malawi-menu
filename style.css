@@ -14,12 +14,20 @@
   border-radius: 5px;
 }
 
+.identity p {
+  font-size: 12px;
+}
+
+.identity img {
+  width: 40px;
+}
+
 img {
-  width: 60px;
+  width: 100px;
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 900;
 }
 
@@ -125,7 +133,7 @@ button {
   border-radius: 5px;
   font-size: 14px;
   background-color: yellow;
-  transition: all .30s;
+  transition: .30s;
   cursor: pointer;
 }
 
@@ -139,7 +147,7 @@ footer {
   align-items: center;
   justify-content: space-between;
   flex: 1;
-  background-color: #525151;
+  background-color: #525251;
   padding: 20px;
   color: white;
 }
@@ -179,6 +187,52 @@ footer .socials {
 .contact img {
   width: 15px;
 }
+
+.form_container {
+  max-width: 80%;
+  margin: 60px auto;
+  border-radius: 10px;
+}
+
+
+
+form h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 28px;
+  color: #ccc;
+}
+
+form {
+  background-color: #7c7a03;
+  width: 50%;
+  margin: 70px auto;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+form input, textarea, select {
+  margin: 10px;
+  background-color: white;
+  color: black;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.input {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+form .cta {
+ place-self: center;
+}
+
+
+
+/* media query */
 
 @media (max-width:700px) {
   img {
@@ -229,8 +283,9 @@ footer .socials {
   font-weight: 400;
 }
 
-  footer.socials {
-    gap: 16px;
+  footer .socials {
+    gap: 22px;
+    margin-bottom: 16px;
   }
 
 .copyright {
