@@ -304,4 +304,18 @@ form .cta {
   font-size: 12px;
 }
 
+.input {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_container {
+  width: 100%;
+}
+
+form {
+  width: 100%;
+  margin: 10px auto;
+}
+
 }
