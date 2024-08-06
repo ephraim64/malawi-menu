@@ -189,7 +189,7 @@ footer .socials {
 }
 
 .form_container {
-  max-width: 80%;
+  max-width: 70%;
   margin: 60px auto;
   border-radius: 10px;
   text-align: center;
@@ -208,12 +208,13 @@ form h1 {
 
 form {
   background-color: #7c7a03;
+  box-shadow: 2px 2px 2px 2px #000000;
   width: 50%;
   margin: 70px auto;
   display: flex;
   flex-direction: column;
   padding: 10px 20px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .btn {
@@ -318,4 +319,13 @@ form {
   margin: 10px auto;
 }
 
+}
+
+.order-head {
+  margin-bottom: 20px;
+}
+
+.order-head p {
+  color: #ccc;
+  font-size: 13px;
 }
